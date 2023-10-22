@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tec Shop - Sua loja tecnológica</title>
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Josefin+Sans&family=Kalam:wght@700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="topo">
+            <div id="logo">
+                <h1>Tec <span class="branco">Shop</span></h1>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <a href="#topo">Ínicio</a>
+                    <a href="#">Recomendados</a>
+                    <a href="#">Mais vendidos</a>
+                    <a href="#">Promoções</a>
+                    <a href="#">5 Estrelas</a>
+                    <a href="#contact">Contato</a>
+                </ul>
+            </nav>
+            <form class="pesquisa" >
+                <input id="pesquisar" type="text" placeholder="Pesquisar">
+                <input id="enviar" type="submit" value="achar!">
+            </form>
+        </div>
+    </header>
+
+    <main id="principal">
+        <div id="topo">
+            <section id="area-postagens">
+                <div class="postagens">
+                    <h2>PROMOÇÕES TODOS OS DIAS!</h2>
+                        <img width="620px" src="./imagens/banner.jpg" alt="banner principal">
+                    </div>
+                    <div class="postagens">
+                        <img width="520px" src="./imagens/info.jpg">
+                    </div>
+                </div>
+            </section>
+            <aside id="area-lateral">
+                <div class="conteudo-lateral">
+                    <h3 id="titulo-postagem">Postagens recentes</h3>
+                    <div class="postagem-lateral">
+                        <a href="">
+                            <img height="105" width="110px" src="./imagens/jordan-black.jpg">
+                            <p> Jordan Black R$: 90</p>
+                        </a>
+                    </div>
+                    <div class="postagem-lateral">
+                        <a href="">
+                            <img height="105" width="110px" src="./imagens/conjunto-kit.jpg">
+                            <p> Conjunto KID R$: 120</p>
+                        </a>
+                    </div>
+                    <div class="postagem-lateral">
+                        <a href="">
+                            <img height="115" width="115px" src="./imagens/colar.jpg">
+                            <p> Colar R$: 50</p>
+                        </a>
+                    </div>
+            </aside>
+        </div>
+        <div>
+            <h2>
+                Contato
+            </h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form id="form">
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu E-mail" required>
+                        <input type="tel" placeholder="Seu Telefone (Opcional)">
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga-nos no Instagram">
+                                <img src="./imagens/instagram.png" alt="Logo do Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Facebook">
+                                <img src="./imagens/facebook.png" alt="Logo do Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Visite nosso canal no Youtube">
+                                <img src="./imagens/youtube.png" alt="Logo do instagram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha até nos</h3>
+                    <p>
+                        Rua Javascript Nº341 Vila HTML - São Paulo - SP
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="contact">
+            <div class="container">
+                <p>
+                    &copy; Games Shop - Todos os direitos reservados - 2023
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
